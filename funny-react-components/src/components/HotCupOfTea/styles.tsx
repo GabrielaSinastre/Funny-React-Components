@@ -1,11 +1,11 @@
 import { styled, keyframes } from 'styled-components';
 
 export const GlobalStyle = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #607d8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #607d8b;
 `;
 
 export const Container = styled.div`
