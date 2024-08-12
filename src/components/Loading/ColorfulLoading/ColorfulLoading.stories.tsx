@@ -4,7 +4,7 @@ import { ColorfulLoading } from './ColorfulLoading';
 const meta = {
   title: 'Loading/ColorfulLoading',
   component: ColorfulLoading,
-  tags: ['autodocs'],
+  // tags: ['autodocs'],
   argTypes: {},
   args: {},
 } satisfies Meta<typeof ColorfulLoading>;
@@ -14,7 +14,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    primary: true,
+    // primary: true,
     label: 'ColorfulLoading',
   },
 };
