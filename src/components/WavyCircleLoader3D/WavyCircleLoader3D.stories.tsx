@@ -2,9 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { WavyCircleLoader3D } from './WavyCircleLoader3D';
 
 const meta = {
-  title: 'WavyCircleLoader3D',
+  title: 'WavyCircleLoader3D/WavyCircleLoader3D',
   component: WavyCircleLoader3D,
-  tags: ['autodocs'],
+  // tags: ['autodocs'],
   argTypes: {},
   args: {},
 } satisfies Meta<typeof WavyCircleLoader3D>;
@@ -14,7 +14,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    primary: true,
+    // primary: true,
     label: 'WavyCircleLoader3D',
   },
 };
