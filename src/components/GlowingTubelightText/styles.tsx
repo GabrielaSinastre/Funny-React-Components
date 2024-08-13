@@ -21,6 +21,7 @@ export const Section = styled.section`
   align-items: center;
   min-height: 100vh;
   background: #07252B;
+  font-family: 'Poppins', sans-serif;
 `;
 
 export const Title = styled.h2`
